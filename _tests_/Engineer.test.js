@@ -1,36 +1,14 @@
 //engineer constant
 const Engineer = require("../library/Engineer");
 
-describe("Engineer", () => {
-    describe("getName", () => {
-        it("should return the name of the parent object", () => {
-            const name = "Jared"
-            expect(name).toEqual(Engineer.name);
-        });
-    });
-    
-    describe("getId", () => {
-        it("should return the ID number of the parent object", () => {
-            const id = 2
-            expect(id).toEqual(Engineer.id);
-        });
-    });
-    describe("getEmail", () => {
-        it("should return the email address of the parent object", () => {
-            const email = "longja2015@gmail.com"
-            expect(email).toEqual(Engineer.email);
-        });
-    });
-    describe("getGit", () => {
-        it("should return the Github of the parent object", () => {
-            const git = "JDaFoolio@github"
-            expect(git).toEqual(Engineer.github);
-        });
-    });
-    describe("getRole", () => {
-        it("should return the role of the parent object", () => {
-            const Role = "engineer"
-            expect(Role).toEqual(Engineer.role);
-        });
-    });
-});
+test("constructor function for github username", () => {
+    const github = "JDaFoolio";
+    const employee = new Engineer("Jared", 1, "longja2015@gmail.com", github);
+    expect(employee.github).toBe(github);
+  });
+
+  test("returns engineer as a role", () => {
+    const role = "Engineer";
+    const employee = new Engineer("Jared", 1, "longja2015@gmail.com", "JDaFoolio");
+    expect(employee.getRole()).toBe(role);
+  });

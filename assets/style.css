@@ -1,0 +1,15 @@
+body {
+    font-family: 'Times New Roman', sans-serif, 'Poppins', 'Open Sans';
+}
+
+li:hover {
+    background-color: rgb(236, 232, 232);
+}
+
+a {
+    color: black;
+}
+a:hover {
+    background-color: rgb(99, 99, 99);        
+    border-radius: 10%;
+}
