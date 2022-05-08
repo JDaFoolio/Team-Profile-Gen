@@ -9,9 +9,9 @@ describe ("Intern", () => {
         });
     });
 //function to get id number for intern 
-describe ("getID", () => {
+describe ("getId", () => {
     it("should return the ID number of the parent object", () => {
-        const id = 0 
+        const id = 3 
         expect(id).toEqual(Intern.id);
     });
 });

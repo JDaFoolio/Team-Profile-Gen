@@ -11,7 +11,7 @@ describe ("Manager", () => {
 //function to get id number for manager 
 describe ("getID", () => {
     it("should return the ID number of the parent object", () => {
-        const id = 1 
+        const id = 4 
         expect(id).toEqual(Manager.id);
     });
 });
@@ -24,8 +24,8 @@ describe("getEmail", () => {
 });
 describe("getOffice", () => {
     it("should return the office number of the parent object", () => {
-        const office = "1"
-        expect(office).toEqual(Manager.office);
+        const officeNumber = "1"
+        expect(officeNumber).toEqual(Manager.officeNumber);
     });
 });
 //function to get the role of manaager

@@ -9,9 +9,9 @@ describe ("Employee", () => {
         });
     });
 //function to get id number for employee 
-describe ("getID", () => {
+describe ("getId", () => {
     it("should return the ID number of the parent object", () => {
-        const id = 3 
+        const id = 1 
         expect(id).toEqual(Employee.id);
     });
 });

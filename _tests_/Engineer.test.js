@@ -12,7 +12,7 @@ describe("Engineer", () => {
     describe("getId", () => {
         it("should return the ID number of the parent object", () => {
             const id = 2
-            expect(Id).toEqual(Engineer.id);
+            expect(id).toEqual(Engineer.id);
         });
     });
     describe("getEmail", () => {
