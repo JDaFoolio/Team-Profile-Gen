@@ -1,0 +1,19 @@
+{
+  "name": "Team-Profile-Gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "directories": {
+  },
+  "scripts": {
+    "test": ""
+  },
+  "author": "JDaFoolio",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
